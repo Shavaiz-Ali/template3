@@ -1,109 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <link rel="stylesheet" href="../input.css">
-    <!-- <link rel="stylesheet" href="asssets/bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="input.css">
+  <link rel="stylesheet" href="assets/fontawesome/fa/css/all.css">
 </head>
+
 <body>
-      <!-- homepage goes here  -->
+  <!-- homepage goes here  -->
   <section>
     <div class="container-fluid bg-[url('/images/bg-dark.jpg')] bg-cover min-h-screen py-5 bg-fixed">
       <div class="container m-auto mt-6">
         <!-- navbar goes here  -->
-<div class="navheader mx-auto lg:flex flex-wrap lg:items-center ">
-  <div class="logo">
-    <span>
-      <img src="images/logo (1).png" alt="" class="xl:mx-5 md:text-center flex items-center mb-3">
-    </span>
-  </div>
-  <ul class="flex flex-wrap gap-4 ml-auto">
-    <li class="list-none h-12 w-28 active bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
-      <a href="./index.html" class="decoration-transparent">
-        <i class="fas fa-home lead text-white"></i>
-        <span class="ml-2 text-white">Home</span>
-      </a>
-    </li>
-
-    <li
-      class="list-none h-12 w-28  bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
-      <a href="./inabout.html" class="decoration-transparent">
-        <i class="fas fa-user lead text-white"></i>
-        <span class="ml-2 text-white">About</span>
-      </a>
-    </li>
-
-    <li
-      class="list-none h-12 w-28  bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] flex items-center justify-center rounded-[5px]">
-      <a href="./inrusume.html" class="decoration-transparent">
-        <i class="fas fa-file-lines lead  text-white"></i>
-        <span class="ml-2 text-white">Resume</span>
-      </a>
-    </li>
-
-    <li
-      class="list-none h-12 w-28 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
-      <a href="#" class="decoration-transparent">
-        <i class="fas fa-briefcase lead text-white"></i>
-        <span class="ml-2 text-white">Works</span>
-      </a>
-    </li>
-
-    <li
-      class="list-none h-12 w-28 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
-      <a href="#" class="decoration-transparent">
-        <i class="fab fa-blogger lead  text-white"></i>
-        <span class="ml-2 text-white">BLogs</span>
-      </a>
-    </li>
-
-    <li
-      class="list-none h-12 w-28 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
-      <a href="./incontact.html" class="decoration-transparent">
-        <i class="fas fa-address-book lead  text-white"></i>
-        <span class="ml-2 text-white">Contact</span>
-      </a>
-    </li>
-
-    <li class="list-none h-12 w-12 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-full flex items-center justify-center">
-      <a href="#" class="decoration-transparent">
-      <i class="fas fa-sun lead text-white"></i>
-    </a></li>
-  </ul>
-</div>
- </div>
-       <!-- ends here  -->
-      <!-- header second section goes here  -->
-        <div class="home-body mt-8 image-text flex flex-col items-center ">
-          <img src="images/pi1.jpg" alt="" class="lg:w-[250px] lg:h-[250px] 2xl:w-[350px] 2xl:h-[350px] sm:w-[200px] sm:h-[200px] rounded-full">
-          <h1 class="text-white lg:text-4xl font-semibold lg:mt-6 mb-1 ">Monalisa Ashley</h1>
-          <p class="text-[#7b7b7b]">Ux/Ui Designer</p>
-          <div class="social-icons mt-3">
-
-            <i class="fab fa-facebook-f h-[36px] dw-[36px] bg-[#212425] text-center p-2  text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
-            
-            <i class="fab fa-twitter h-[36px] w-[36px] bg-[#212425] text-center p-2  text-[#1773ea] hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white  rounded mx-1"></i>
-            
-            <i class="fab fa-dribbble h-[36px] w-[36px] bg-[#212425] text-center p-2  text-[#1773ea] hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white  rounded mx-1"></i>
-
-            <i class="fab fa-linkedin-in h-[36px] w-[36px] bg-[#212425] text-center p-2    text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
-
+        <div class="navheader mx-auto lg:flex flex-wrap lg:items-center ">
+          <div class="logo">
+            <span>
+              <!-- <img src="images/logo (1).png" alt="" class="xl:mx-5 md:text-center flex items-center mb-3"> -->
+              <h1 class="text-white text-5xl font-thin">Shavaiz Ali</h1>
+            </span>
           </div>
-          <div class="button mt-4">
-            <button class="text-white bg-gradient-to-tr from-[#e53048] to-[#dd205f] text-xl  h-[50px] rounded-tl-3xl w-[200px] rounded-bl-3xl rounded-tr-3xl rounded-br-3xl"><i class="fas fa-download lead"></i>
-              <span class="mx-1 ">Download CV</span>
-            </button>
-          </div>
-        </div>      
+          <ul class="flex flex-wrap gap-4 ml-auto">
+            <li
+              class="list-none h-12 w-28 active bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
+              <a href="./index.html" class="decoration-transparent">
+                <i class="fas fa-home lead text-white"></i>
+                <span class="ml-2 text-white">Home</span>
+              </a>
+            </li>
+
+            <li
+              class="list-none h-12 w-28  bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
+              <a href="./inabout.html" class="decoration-transparent">
+                <i class="fas fa-user lead text-white"></i>
+                <span class="ml-2 text-white">About</span>
+              </a>
+            </li>
+
+            <li
+              class="list-none h-12 w-28  bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] flex items-center justify-center rounded-[5px]">
+              <a href="./inrusume.html" class="decoration-transparent">
+                <i class="fas fa-file-lines lead  text-white"></i>
+                <span class="ml-2 text-white">Resume</span>
+              </a>
+            </li>
+
+            <li
+              class="list-none h-12 w-28 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
+              <a href="#" class="decoration-transparent">
+                <i class="fas fa-briefcase lead text-white"></i>
+                <span class="ml-2 text-white">Works</span>
+              </a>
+            </li>
+
+            <li
+              class="list-none h-12 w-28 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
+              <a href="#" class="decoration-transparent">
+                <i class="fab fa-blogger lead  text-white"></i>
+                <span class="ml-2 text-white">BLogs</span>
+              </a>
+            </li>
+
+            <li
+              class="list-none h-12 w-28 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-[5px] flex items-center justify-center">
+              <a href="./incontact.html" class="decoration-transparent">
+                <i class="fas fa-address-book lead  text-white"></i>
+                <span class="ml-2 text-white">Contact</span>
+              </a>
+            </li>
+
+            <li
+              class="list-none h-12 w-12 bg-[#212425] border-0 hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] rounded-full flex items-center justify-center">
+              <a href="#" class="decoration-transparent">
+                <i class="fas fa-sun lead text-white"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <!-- ends here  -->
+      <!-- header second section goes here  -->
+      <div class="home-body mt-8 image-text flex flex-col items-center ">
+        <img src="images/my1.jpg" alt=""
+          class="lg:w-[300px] lg:h-[300px] 2xl:w-[450px] 2xl:h-[450px] sm:w-[300px] sm:h-[300px] w-[250px] h-[250px] rounded-full">
+        <h1 class="text-white sm:text-4xl font-semibold lg:mt-6 mb-1 ">Shavaiz ALi</h1>
+        <p class="text-[#7b7b7b]">Front End Developer</p>
+        <div class="social-icons mt-3">
+
+          <i
+            class="fab fa-facebook-f h-[36px] w-[36px] bg-[#212425] text-center p-2  text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
+
+          <i
+            class="fab fa-twitter h-[36px] w-[36px] bg-[#212425] text-center p-2  text-[#1773ea] hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white  rounded mx-1"></i>
+
+          <i
+            class="fab fa-dribbble h-[36px] w-[36px] bg-[#212425] text-center p-2  text-[#1773ea] hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white  rounded mx-1"></i>
+
+          <i
+            class="fab fa-linkedin-in h-[36px] w-[36px] bg-[#212425] text-center p-2    text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
+
+        </div>
+        <div class="button mt-4">
+          <button
+            class="text-white bg-gradient-to-tr from-[#e53048] to-[#dd205f] text-xl  h-[50px] rounded-tl-3xl w-[200px] rounded-bl-3xl rounded-tr-3xl rounded-br-3xl"><i
+              class="fas fa-download lead"></i>
+            <span class="mx-1 ">Download CV</span>
+          </button>
+        </div>
+      </div>
+      <!-- ends here  -->
+      <!-- about section starts here  -->
+      <div class="container bg-[#111111] m-auto mt-12 p-5 rounded-2xl">
+        <div class="heading lg:pl-8 py-8">
+          <h1 class="text-white lg:text-5xl text-3xl border-b-2 lg:w-1/3 border-[#e53048]">About Me</h1>
+        </div>
+        <!-- who iam goes here  -->
+        <div class="about-sec1 lg:flex lg:gap-16 xl:gap-0">
+          <!-- image goes here  -->
+          <div class="my-image lg:pl-8 lg:w-[40vw] text-center">
+            <img src="images/my2.jpg" alt=""
+              class="rounded-[38px] mb-3 lg:w-[380px] lg:h-[480px] text-center sm:w-[70%] sm:h-[70%] object-cover overflow-hidden">
+          </div>
+          <!-- ends here  -->
+          <!-- text-goes here  -->
+          <div class="text xl:w-[60vw] w-full">
+            <h1 class="text-white text-4xl">Who am i?</h1>
+            <p class="text-gray-400 xl:text-xl sm:text-[1rem] pt-3 text-xs">I'm Creative Director and UI/UX Designer
+              from Sydney,
+              Australia, working in web development and print media. I enjoy turning complex problems into
+              simple, beautiful and intuitive designs.</p>
+            <p class="text-gray-400 xl:text-xl sm:text-[1rem] text-xs pt-3">My aim is to bring across your message and
+              identity in the
+              most creative way. I created web design for many famous brand companies.</p>
+            <!-- more personal information goes here  -->
+            <div class="information pt-3 grid-cols-12">
+              <h1 class="text-white text-4xl mb-4">Personal Info</h1>
+              <!-- icons-1 goes here  -->
+              <div class="icons-1 md:flex flex-wrap lg:gap-0 md:gap-32 lg:pt-2 w-100">
+                <div class="icon1 flex flex-wrap  pt-2">
+                  <span>
+                    <i
+                      class="fas fas fa-phone-alt bg-[#212425] text-center pt-3 rounded w-[44px] h-[44px] text-pink-500 text-xl">
+                    </i>
+                  </span>
+                  <div>
+                    <p class="ml-2 text-gray-300">Phone</p>
+                    <p class="ml-2 text-xl text-white">+123 1234 123</p>
+                  </div>
+                </div>
+                <div class="icon2 flex flex-wrap  xl:mx-32 lg:mx-14 pt-2">
+                  <span>
+                    <i
+                      class="fas fas fa-location-arrow bg-[#212425] text-center pt-3 rounded w-[44px] h-[44px] text-pink-500 text-xl">
+                    </i>
+                  </span>
+                  <div>
+                    <p class="ml-2 text-gray-300">Location</p>
+                    <p class="ml-2 text-xl text-white">Hong Kong China</p>
+                  </div>
+                </div>
+              </div>
+              <!-- ends here  -->
+              <!-- icons 2 goes here  -->
+              <div class="icons-2 md:flex flex-wrap  md:mt-4 lg:gap-0 md:gap-32 w-100">
+                <div class="icon1 flex flex-wrap pt-2 ">
+                  <span>
+                    <i
+                      class="fas fa-envelope-open bg-[#212425] text-center pt-3 rounded w-[44px] h-[44px] text-pink-500 text-xl">
+                    </i>
+                  </span>
+                  <div>
+                    <p class="ml-2 text-gray-300">Email</p>
+                    <p class="ml-2 text-xl text-white">inf@gmail.com</p>
+                  </div>
+                </div>
+                <div class="icon2 flex flex-wrap xl:mx-32 lg:mx-14 pt-2 ">
+                  <span>
+                    <i
+                      class="fas fa-calendar-alt bg-[#212425] text-center pt-3 rounded w-[44px] h-[44px] text-pink-500 text-xl">
+                    </i>
+                  </span>
+                  <div>
+                    <p class="ml-2 text-gray-300">Birthday</p>
+                    <p class="ml-2 text-xl text-white">+123 1234 123</p>
+                  </div>
+                </div>
+              </div>
+              <!-- ends here  -->
+            </div>
+            <!-- ends here  -->
+          </div>
+          <!-- ends here  -->
+
+        </div>
+      </div>
+      <!-- ends here  -->
+      <!-- about section ends here  -->
+      <!-- Resume section goes here  -->
+      <div class="container bg-[#111111] m-auto mt-12 p-5 rounded-2xl ">
+        <div class="heading lg:pl-8 py-8">
+          <h1 class="text-white lg:text-5xl text-3xl border-b-2 lg:w-1/3 border-[#e53048]">Resume</h1>
+        </div>
+        <div class="Resume lg:flex justify-between rounded-[10px] xl:p-8">
+          <!-- .progressbar goes here  -->
+          <div class="progressbars lg:w-[50%]">
+            <div class="heading lg:pl-8">
+              <h1 class="text-white lg:text-3xl text-2xl">Skills</h1>
+            </div>
+            <!-- progressbar1 goes here  -->
+            <div class="mb-5 lg:pl-8 mt-5">
+              <div class="flex justify-between mb-1">
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">HTML</span>
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">80%</span>
+              </div>
+              <div class="w-full bg-[#424141] rounded-full h-1 dark:text-[#1c1c1c]">
+                <div class="bg-[#FF6464] h-1 rounded-full" style="width:80%;"></div>
+              </div>
+            </div>
+            <!-- ends here  -->
+
+            <!-- progressbar2 goes here  -->
+            <div class="mb-5 lg:pl-8 mt-5">
+              <div class="flex justify-between mb-1">
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">HTML 5</span>
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">60%</span>
+              </div>
+              <div class="w-full bg-[#424141] rounded-full h-1 dark:text-[#1c1c1c]">
+                <div class="bg-[#9272d4] h-1 rounded-full" style="width:60%;"></div>
+              </div>
+            </div>
+            <!-- ends here  -->
+
+            <!-- progressbar3 goes here  -->
+            <div class="mb-5 lg:pl-8 mt-5">
+              <div class="flex justify-between mb-1">
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">CSS3</span>
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">65%</span>
+              </div>
+              <div class="w-full bg-[#424141] rounded-full h-1 dark:text-[#1c1c1c]">
+                <div class="bg-[#5185d4] h-1 rounded-full" style="width:65%;"></div>
+              </div>
+            </div>
+            <!-- ends here  -->
+
+            <!-- progressbar4 goes here  -->
+            <div class="mb-5 lg:pl-8 mt-5">
+              <div class="flex justify-between mb-1">
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">bootstrap</span>
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">70%</span>
+              </div>
+              <div class="w-full bg-[#424141] rounded-full h-1 dark:text-[#1c1c1c]">
+                <div class="bg-[#ca56f2] h-1 rounded-full" style="width:70%;"></div>
+              </div>
+            </div>
+
+            <!-- progressbar5 goes here  -->
+            <div class="mb-5 lg:pl-8 mt-5">
+              <div class="flex justify-between mb-1">
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">Tailwind CSS</span>
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">60%</span>
+              </div>
+              <div class="w-full bg-[#424141] rounded-full h-1 dark:text-[#1c1c1c]">
+                <div class="bg-[#ca56f2] h-1 rounded-full" style="width:60%;"></div>
+              </div>
+            </div>
+
+            <!-- progressbar6 goes here  -->
+            <div class="mb-5 lg:pl-8 mt-5">
+              <div class="flex justify-between mb-1">
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">Javascript</span>
+                <span class="font-semibold text-xl text-[#526377] dark:text-[#A6A6A6]">50%</span>
+              </div>
+              <div class="w-full bg-[#424141] rounded-full h-1 dark:text-[#1c1c1c]">
+                <div class="bg-[#ca56f2] h-1 rounded-full" style="width:50%;"></div>
+              </div>
+            </div>
+            <!-- ends here  -->
+            <!-- ends here  -->
+          </div>
+          <!-- ends here  -->
+          <!-- khowledges section start here  -->
+          <div class="My-Education-experience">
+            <!-- education    -->
+            <div class="heading">
+              <h1 class=" text-white text-3xl font-medium "><i class="fas fa-graduation-cap text-pink-500 mt-4"></i>
+                Education</h1>
+            </div>
+            <div class=" border-2 border-[#424141] rounded pr-32 mt-5">
+              <p class="text-gray-400 ml-4 pt-3">2016-2020</p>
+              <div class="text">
+                <p class="text-white sm:text-xl text-[20px] ml-4 pt-2 mb-3">Bachelor of Computer Science<br>
+                  <span class="text-gray-400 class text-[16px]">Karakurum International University Gilgit
+                    Pakistan</span>
+                </p>
+              </div>
+            </div>
+            <!-- Experience  -->
+            <div class="heading">
+              <h1 class=" text-white text-3xl font-medium "><i class="fas fa-briefcase text-pink-500 mt-4"></i>
+                <span class="ml-1">Experience</span>
+              </h1>
+            </div>
+            <div class=" border-2 border-[#424141] rounded pr-32 mt-5">
+              <p class="text-gray-400 ml-4 pt-3">2021-2022</p>
+              <div class="text">
+                <p class="text-white text-xl ml-4 pt-2 mb-3">1 year of Experience<br>
+                  <span class="text-gray-400 class text-[16px]">Uconnect Gilgit Pakistan</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ends here  -->
+        </div>
+      </div>
+      <!-- Resume section ends  here  -->
+
+      <!-- contact section start here  -->
+      <div class="container bg-[#111111] m-auto mt-12 sm:p-5 rounded-2xl">
+        <!-- heading goes here  -->
+        <div class="heading lg:pl-8 py-8">
+          <h1 class="text-white lg:text-5xl text-3xl border-b-2 lg:w-1/3 border-[#e53048]">Contact</h1>
+        </div>
+        <!-- ends here  -->
+
+        <!-- contact-body starts here  -->
+        <div class="contact-body lg:pl-8 lg:flex gap-10 sm:p-10 p-3">
+          <!-- address goes here  -->
+          <div class="address lg:w-[30%]">
+            <!-- phone-div goes here  -->
+            <div class="div-phone border border-[#424141] sm:p-9 p-2 rounded-xl">
+              <span class="flex text-white text-xl font-semibold">
+                <img src="images/phone-call.png" alt="" class="w-10">
+                <p class="ml-2">Phone :</p>
+              </span>
+              <div class="text">
+                <p class="lg:ml-8  md:text-[18px] font-thin text-xl text-[#8a8a8a]">+123 345 678</p>
+                <p class="lg:ml-8  md:text-[18px] font-thin text-xl text-[#8a8a8a]">+123 345 678</p>
+              </div>
+            </div>
+            <!-- ends here  -->
+            <!-- email-div goes here  -->
+            <div class="div-email border border-[#424141] sm:p-9 p-2 rounded-xl mt-8">
+              <span class="flex text-white text-xl font-semibold">
+                <img src="images/email.png" alt="" class="w-10">
+                <p class="ml-2">Email:</p>
+              </span>
+              <div class="text">
+                <p class="lg:ml-8 md:text-[18px] font-thin text-xl text-[#8a8a8a]">Shavaizali159@gmail.com</p>
+                <p class="lg:ml-8 md:text-[18px] font-thin text-xl text-[#8a8a8a]">example@gamil.com</p>
+              </div>
+            </div>
+            <!-- ends here  -->
+            <!-- email-div goes here  -->
+            <div class="div-email border border-[#424141] sm:p-9 p-2 rounded-xl mt-8">
+              <span class="flex text-white text-xl font-semibold">
+                <img src="images/map.png" alt="" class="w-10">
+                <p class="ml-2">Address:</p>
+              </span>
+              <div class="text">
+                <p class="sm:ml-8  md:text-[18px] font-thin text-xl text-[#8a8a8a]">maount,oval</p>
+                <p class="sm:ml-8  md:text-[18px] font-thin text-xl text-[#8a8a8a]">road,new york,usa</p>
+              </div>
+            </div>
+            <!-- ends here  -->
+          </div>
+          <!-- ends here  -->
+          <!-- form goes here  -->
+          <div class="contact-form border border-[#424141] sm:p-12 p-3 ml-auto rounded-xl lg:w-[65%] lg:h-[95vh] lg:mt-0 mt-5">
+            <div class="text">
+              <p class="sm:text-3xl text-xl text-[#8a8a8a]">I,m always open to discussing product</p>
+              <h1 class="text-white sm:text-3xl text-xl mt-2">Design Work Or Partnership</h1>
+            </div>
+            <div class="form mt-5">
+              <form action="">
+                <span>
+                  <input type="text" placeholder="Name*"
+                    class="border-0 border-b-2 border-b-[#8a8a8a] text-white w-full bg-transparent py-3">
+                </span>
+                <span>
+                  <input type="text" placeholder="Email*"
+                    class="border-0 border-b-2 border-b-[#8a8a8a] text-white w-full bg-transparent py-3 mt-10">
+                </span>
+                <span>
+                  <input type="text" placeholder="Message*"
+                    class="border-0 border-b-2 border-b-[#8a8a8a] text-white w-full bg-transparent py-3 mt-10">
+                </span>
+                <button class="text-white border-2 border-white w-32 p-2 mt-10 rounded-[10px]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f]
+                hover:border-0 transition-[0.3s]">Submit</button>
+              </form>
+            </div>
+          </div>
+          <!-- ends here  -->
+        </div>
+        <!-- ends here  -->
+      </div>
+      <!-- contact section ends here  -->
+      <!-- footer goes here  -->
+      <div class="container bg-[#111111] m-auto mt-12 sm:p-5 rounded-2xl text-center">
+        <div class="heading ">
+          <h1 class="text-white lg:text-5xl text-3xl m-auto text-center border-b-2 lg:w-[25%] border-[#e53048]">Follow Me</h1>
+        </div>
+        <div class="icon mt-3">
+          <i
+            class="fab fa-facebook-f h-[36px] w-[36px] bg-[#212425] text-center p-2 text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
+
+          <i
+            class="fab fa-twitter h-[36px] w-[36px] bg-[#212425] text-center p-2 text-[#1773ea] hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white  rounded mx-1"></i>
+
+          <i
+            class="fab fa-instagram h-[36px] w-[36px] bg-[#212425] text-center p-2 text-[#1773ea] hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white  rounded mx-1"></i>
+
+          <i
+            class="fab fa-linkedin-in h-[36px] w-[36px] bg-[#212425] text-center p-2 text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
+          <i
+            class="fab fa-youtube h-[36px] w-[36px] bg-[#212425] text-center p-2 text-[#1773ea]  hover:bg-gradient-to-tr from-[#e53048] to-[#dd205f] hover:text-white rounded mx-1"></i>
+        </div>
+        <div class="rights-sec mt-3">
+          <p class="text-white">All Rights Reserved, <i class="fas fa-copyright">Copyright 2022 </i> And Designed By Shavaiz ALi</p>
+        </div>
+      </div>
+      <!-- footer ends here  -->
     </div>
   </section>
   <!-- ends here  -->
   <!-- linking of javascript goes here  -->
   <script src="index.js"></script>
 </body>
+
 </html>
